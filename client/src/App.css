@@ -1,0 +1,86 @@
+
+
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+.information label{
+  font-size: 18px;
+  font-family: Verdana, Tahoma, sans-serif ;
+}
+
+.information input{
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+
+}
+
+button{
+  padding: 10px;
+  cursor: pointer;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  border-radius: 12px;
+  color: white;
+  background-color: #0188CC;
+  margin-bottom: 10px;
+  width: 320px;
+  
+  
+  
+}
+
+ button:hover{
+  background-color: green;
+  color:white;
+ 
+}
+
+span.break{
+  margin-top: 10px;
+}
+
+.showEmployee{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 320px;
+  width: 100%;
+
+}
+
+.showEmployeeList{
+  width: 310px;
+  height: 150px;
+  border: 2px solid #0188CC;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+
+  
+}
+
+showEmployeeList.span{
+  margin: 5px;
+  font-size: 20px;
+
+}
+
+.showEmployeeListSpan{
+  font-size: 18px;
+}
